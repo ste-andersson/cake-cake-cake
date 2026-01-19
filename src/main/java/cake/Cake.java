@@ -3,7 +3,7 @@ package cake;
 public class Cake {
 
     private String flavor;
-    private double price;
+    private double price = 20;
 
     public String getFlavor() {
         return flavor;
